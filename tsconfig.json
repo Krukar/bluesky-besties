@@ -19,6 +19,8 @@
             }
         ],
         "paths": {
+            "@Actions": ["./src/app/actions.ts"],
+            "@Lib/*": ["./src/lib/*"],
             "@Styles": ["./src/styles/globals.css"],
             "@Svgs/*": ["./src/svgs/*"],
             "@Utils/*": ["./src/utils/*"]

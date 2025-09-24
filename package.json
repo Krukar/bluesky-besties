@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@atproto/jwk-jose": "^0.1.10",
     "@atproto/oauth-client-node": "^0.3.8",
     "next": "15.5.4",
     "react": "19.1.0",
