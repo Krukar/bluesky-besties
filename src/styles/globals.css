@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@import './custom/base.css';
+@import './custom/components.css';
+@import './custom/utilities.css';
+
+@theme {
+    --color-dark: black;
+    --color-light: white;
+    --color-primary: red;
+    --ease-cool: cubic-bezier(0, 0, 0.5, 1);
+}

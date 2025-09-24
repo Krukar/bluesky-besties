@@ -1,0 +1,17 @@
+@layer base {
+    body {
+        @apply bg-dark;
+        @apply text-light;
+    }
+
+    ::selection {
+        @apply bg-primary;
+        @apply text-light;
+    }
+
+    a,
+    button,
+    input {
+        @apply in-out-smooth;
+    }
+}
